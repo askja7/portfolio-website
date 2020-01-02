@@ -46,6 +46,37 @@ header li a {
 
 /**PAGES**/
 
+
+
+
+body.home {
+    background-image: url(images/bailey-zindel-NRQV-hBF10M-unsplash.jpg);
+ background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+
+.home-pg-title {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 10vh;
+    align-content: center;
+    margin-top: 25vh;
+}
+
+h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
 .row {
     margin-top: 4em;
     display: flex;
@@ -71,7 +102,29 @@ body {
 }
 
 
+/**HOME PAGE EFFECT**/
 
 
+svg {
+    width: 80vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
 
 
+}
+
+.line {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-dasharray: 101;
+    stroke-dashoffset: 101;
+    transition: 1s linear;
+}
+
+.draw {
+    stroke-dashoffset: 0;
+}
