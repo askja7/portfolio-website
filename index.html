@@ -7,29 +7,19 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js.txt"></script>
     <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-<div id="container">
-    <header class="navburger">
-        <div class="toggle" onclick="toggleSidebar(this);">
-            <span></span>
-            <span></span>
-            <span></span>
+    <header>
+        <div id=logo-header>
+            <img alt="logo" src="images/logo-outlined-stroke.svg" width="50" height="50">
         </div>
-        <div class="logoburger">
-            <img alt="logo" src="images/logo-outlined-stroke.svg">
-        </div>
-        <ul class="sidebar" id="sidebar">
-            <li class="option"><a href="index.html">Portfolio</a></li>
-            <li class="option"><a href="about.html">About me</a></li>
-        </ul>
-    </header>
-    <header class="desktop">
-        <img alt="logo" src="images/logo-outlined-stroke.svg">
-        <ul class="topnav">
-            <li><a class="active" href="index.html">Portfolio</a></li>
-            <li><a href="about.html">About me</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a class="active" href="#index">Portfolio</a></li>
+                <li><a href="pages/about.html">About me</a></li>
+            </ul>
+        </nav>
     </header>
     <main class="row">
         <div class="column">
@@ -41,6 +31,5 @@
             <a href="pages/basic-content/basic-content.html"><img alt="basic-content" src="images/basic-content.svg"></a>
         </div>
     </main>
-</div>
 </body>
 </html>
