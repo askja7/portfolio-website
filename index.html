@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js.txt"></script>
+    <title>Portfolio</title>
 </head>
-
 <body>
-
+<div id="container">
+    <header class="navburger">
+        <div class="toggle" onclick="toggleSidebar(this);">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="logoburger">
+            <img alt="logo" src="images/logo-outlined-stroke.svg">
+        </div>
+        <ul class="sidebar" id="sidebar">
+            <li class="option"><a href="index.html">Portfolio</a></li>
+            <li class="option"><a href="about.html">About me</a></li>
+        </ul>
+    </header>
+    <header class="desktop">
+        <img alt="logo" src="images/logo-outlined-stroke.svg">
+        <ul class="topnav">
+            <li><a class="active" href="index.html">Portfolio</a></li>
+            <li><a href="about.html">About me</a></li>
+        </ul>
+    </header>
+    <main class="row">
+        <div class="column">
+            <a href="pages/basic-web/basic-web.html"><img alt="basic-web" src="images/basic-web.svg"></a>
+            <a href="pages/basic-ux/basic-ux.html"><img alt="basic-ux" src="images/basic-ux.svg"></a>
+        </div>
+        <div class="column">
+            <a href="pages/basic-animation/basic-animation.html"><img alt="basic-animation" src="images/basic-animation.svg"></a>
+            <a href="pages/basic-content/basic-content.html"><img alt="basic-content" src="images/basic-content.svg"></a>
+        </div>
+    </main>
+</div>
 </body>
 </html>
-<link rel="stylesheet" href=""><script src=""></script>
