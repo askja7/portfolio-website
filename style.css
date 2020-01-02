@@ -1,5 +1,5 @@
 header {
-    background-color: #ffffff;
+    background-color: #f4f7f6;
     max-width: 100%;
 	margin: 0;
     display: flex;
@@ -24,12 +24,13 @@ header li a {
     color: #343434;
     text-align: center;
     font-family: 'Monserrat', sans-serif;
-    padding: 25px;
+    font-weight: semi-bold;
+    padding: 20px;
     text-decoration: none;
 }
 
 .active {
-    border-bottom: 3px solid #48C3C4;
+    border-bottom: 3px solid #3ea094;
 }
 
  header img {
@@ -64,7 +65,7 @@ header li a {
 
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: #ffffff;
+    background-color: #f4f7f6;
     margin: 0;
     align-content: center;
 }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id=logo-header>
+            <img alt="logo" src="images/logo-outlined-stroke.svg" width="50" height="50">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a class="active" href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="pages/about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="row">
+        <div class="column">
+            <a href="pages/basic-web/basic-web.html"><img class="main-img" alt="basic-web" src="images/test1.png" onmouseover="rollover(this)" onmouseout="mouseaway(this)" /></a>
+
+            <a href="pages/basic-ux/basic-ux.html"><img alt="basic-ux" src="images/basic-ux.svg" class="main-img"></a>
+        </div>
+        <div class="column">
+            <a href="pages/basic-animation/basic-animation.html"><img alt="basic-animation" src="images/basic-animation.svg" class="main-img"></a>
+            <a href="pages/basic-content/basic-content.html"><img alt="basic-content" src="images/basic-content.svg" class="main-img"></a>
+        </div>
+    </main>
+</body>
+</html>
