@@ -33,3 +33,46 @@ function rollover(my_image)
 
     }
 
+function rollover2(my_image)
+    {
+
+        my_image.src = 'images/basic-ux-hover.svg';
+
+    }
+
+ function mouseaway2(my_image)
+    {
+
+        my_image.src = "images/basic-ux.svg";
+
+    }
+
+
+function rollover3(my_image)
+    {
+
+        my_image.src = 'images/basic-animation-hover.svg';
+
+    }
+
+ function mouseaway3(my_image)
+    {
+
+        my_image.src = "images/basic-animation.svg";
+
+    }
+
+
+function rollover4(my_image)
+    {
+
+        my_image.src = 'images/basic-content-hover.svg';
+
+    }
+
+ function mouseaway4(my_image)
+    {
+
+        my_image.src = "images/basic-content.svg";
+
+    }
