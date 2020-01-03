@@ -52,7 +52,7 @@ header li a {
 
 
 body.home {
-    background-image: url(images/bailey-zindel-NRQV-hBF10M-unsplash.jpg);
+    background-image: url(images/image-001.jpg);
  background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
@@ -197,6 +197,7 @@ ul {
     color: #3ea094;
     text-decoration: none;
     padding: 0;
+    font-weight: bold;
 }
 
 li {
@@ -220,7 +221,7 @@ li {
 
 
     img.portfolio-images {
-        width: 40%;
+        width: 50%;
         align-content: center;
         display: block;
         margin-left: auto;
