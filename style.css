@@ -230,3 +230,13 @@ li {
     }
 
 
+.back-arrow {
+    width: 50px;
+    display: block;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
