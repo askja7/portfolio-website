@@ -12,7 +12,7 @@ function start() {
 function drawThis(line, i){
     setTimeout(function(){
       line.classList.add("draw");
-    }, i * 2000);
+    }, i * 900);
 
 
 }
