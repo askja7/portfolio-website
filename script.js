@@ -30,7 +30,7 @@ function start() {
 function drawThis(line, i){
     setTimeout(function(){
       line.classList.add("draw");
-    }, i* 1000);
+    }, i* 700);
 }
 */
 
