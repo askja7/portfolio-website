@@ -444,7 +444,7 @@ header {
     width: 300px;
 
 }
-    p {
+p, h3, ul, .doc-links  {
         margin-left: 2em;
         margin-right: 2em;
     }
