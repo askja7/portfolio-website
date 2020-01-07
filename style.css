@@ -369,9 +369,12 @@ img.portfolio-images {
     font-size: 14px;
     }
 
-    p {
+    p, h3, ul, .doc-links  {
         margin-left: 2em;
         margin-right: 2em;
+    }
+
+
     }
 
     img.portfolio-images {
