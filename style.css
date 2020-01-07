@@ -351,8 +351,8 @@ img.portfolio-images {
     max-width:700px;
     }
 
-
 }
+
 
 
 @media only screen and (max-width: 899px) {
@@ -387,6 +387,7 @@ img.portfolio-images {
   display: block;
 }
 
+
 }
 
 
@@ -410,7 +411,7 @@ img.portfolio-images {
     }**/
 
 
-    header {
+header {
         display: flex;
         flex-direction: column;
 	align-items: stretch;
@@ -460,6 +461,8 @@ img.portfolio-images {
 .row {
   display: block;
 }
+
+
 
 
 }
