@@ -255,6 +255,49 @@ li {
         margin-left: auto;
     margin-right: auto;
         border-radius: 6px;
-     margin-top: 3em;
+
     }
 
+
+
+.about-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    color: #3ea094;
+}
+
+/**SOCIAL ICONS**/
+
+hr.style1{
+	border-top: 3px solid #3ea094;
+    width: 500px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+ul.social-icons {
+    list-style: none;
+    padding:0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-about {
+    margin-top: 0px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+img.social-icon {
+    height: 50px;
+    width: auto;
+
+}
