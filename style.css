@@ -347,14 +347,100 @@ footer{
 
      h1{ max-width: 650px;
 }
-    img {
-        width: 80%;
+
+
+
+}
+
+
+@media only screen and (max-width: 899px) {
+    body{
+        display: grid;
+        grid-template-columns: 10px 1fr 10px;
+        grid-template-areas:
+            "header header header"
+            ". main ."
+            "footer footer footer";
     }
 
-    .responsive {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
+    p{
+    font-size: 14px;
+    }
+
+    body {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    img.portfolio-images {
+    width: 80%;
 }
+}
+
+
+@media only screen and (max-width: 599px) {
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "main"
+            "footer";
+    }
+
+
+ /**header img {
+     display: flex;
+    align-self: flex-start;
+    height: 35px;
+     margin-left: 0;
+
+    }**/
+
+
+    header {
+        display: flex;
+        flex-direction: column;
+	align-items: stretch;
+    }
+
+    header ul {
+        align-self: stretch;
+
+    }
+
+    header li {
+        display: grid;
+    }
+
+    header li a {
+        padding: 10px;
+        display: table-header-group;
+
+    }
+
+    header img {
+        display: none;
+    }
+
+    hr.style1{
+
+    width: 300px;
+
+}
+    body {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+       img.portfolio-images {
+    width: 80%;
+}
+    img.about-image {
+        width: 40vw;
+
+
+    }
+
 
 }
