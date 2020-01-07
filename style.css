@@ -347,7 +347,9 @@ footer{
 
      h1{ max-width: 650px;
 }
-
+img.portfolio-images {
+    max-width:700px;
+    }
 
 
 }
@@ -375,6 +377,16 @@ footer{
     img.portfolio-images {
     width: 80%;
 }
+
+    .column {
+  padding: 0;
+
+}
+
+.row {
+  display: block;
+}
+
 }
 
 
@@ -438,9 +450,16 @@ footer{
 }
     img.about-image {
         width: 40vw;
-
-
     }
+
+        .column {
+  padding: 0;
+
+}
+
+.row {
+  display: block;
+}
 
 
 }
