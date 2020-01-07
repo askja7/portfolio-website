@@ -95,3 +95,65 @@ function rollover4(my_image)
         my_image.src = "images/basic-content.svg";
 
     }
+
+
+/**SOME IMAGES EFFECT**/
+
+function rollover5(my_image)
+    {
+
+        my_image.src = 'images/about/some/insta-hover.svg';
+
+    }
+
+ function mouseaway5(my_image)
+    {
+
+        my_image.src = "images/about/some/insta.svg";
+
+    }
+
+
+function rollover6(my_image)
+    {
+
+        my_image.src = 'images/about/some/pinterest-hover.svg';
+
+    }
+
+ function mouseaway6(my_image)
+    {
+
+        my_image.src = "images/about/some/pinterest.svg";
+
+    }
+
+
+function rollover7(my_image)
+    {
+
+        my_image.src = 'images/about/some/linkedin-hover.svg';
+
+    }
+
+ function mouseaway7(my_image)
+    {
+
+        my_image.src = "images/about/some/linkedin.svg";
+
+    }
+
+
+function rollover8(my_image)
+    {
+
+        my_image.src = 'images/about/some/behance-hover.svg';
+
+    }
+
+ function mouseaway8(my_image)
+    {
+
+        my_image.src = "images/about/some/behance.svg";
+
+    }
