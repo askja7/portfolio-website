@@ -26,7 +26,7 @@ header li a {
     color: #343434;
     text-align: center;
     font-family: 'Monserrat', sans-serif;
-    font-weight: semi-bold;
+    font-weight: bold;
     padding: 20px;
     text-decoration: none;
 }
@@ -185,12 +185,8 @@ ul {
     margin-right: auto;
     max-width: 700px;
     text-align: left;
-    font-size: 18px;
-    font-family: 'Libre Baskerville', serif;
-    color: #3ea094;
     text-decoration: none;
     padding: 0;
-    font-weight: bold;
 }
 
 li {
@@ -203,7 +199,6 @@ li {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #343434;
-    font-weight: semi-bold;
 }
 
 .doc-links {
@@ -275,7 +270,7 @@ ul.social-icons {
     list-style: none;
     padding: 0;
     margin-top: 0px;
-    margin-bottom: 5 px;
+    margin-bottom: 5px;
     display: flex;
     justify-content: center;
 }
